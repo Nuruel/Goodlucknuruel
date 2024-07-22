@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlotPicker</title>
+    <link rel="stylesheet" href="D:\IPT\DAY 1\BUILDINGHOME.CSS">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">PlotPicker</div>
+        <form id="plot-form">
+            <label for="location">Location:</label>
+            <select id="location" name="location">
+                <option value="town">Town</option>
+                <option value="village">Village</option>
+            </select>
+
+            <label for="region">Region:</label>
+            <select id="region" name="region">
+                <option value="region1">Kilimanjaro</option>
+                <option value="region2">Tanga</option>
+                <option value="region3">Dodoma</option>
+                <option value="region3">Mbeya</option>
+                <option value="region3">Mwanza</option>
+                <option value="region3">Dar_es_salaam</option>
+                <option value="region3">Ruvuma</option>
+            </select>
+
+            <label for="budget">Budget:</label>
+            <input type="number" id="budget" name="budget" placeholder="Enter budget">
+
+            <label for="size">Size (sq ft):</label>
+            <input type="number" id="size" name="size" placeholder="Enter plot size">
+
+            <label for="near-school">Near School:</label>
+            <select id="near-school" name="near-school">
+                <option value="yes">Yes</option>
+                <option value="not-necessarily">Not Necessarily</option>
+            </select>
+
+            <label for="near-hospital">Near Hospital:</label>
+            <select id="near-hospital" name="near-hospital">
+                <option value="yes">Yes</option>
+                <option value="not-necessarily">Not Necessarily</option>
+            </select>
+
+            <label for="public-transport">Public Transport:</label>
+            <select id="public-transport" name="public-transport">
+                <option value="yes">Yes</option>
+                <option value="not-necessarily">Not Necessarily</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="background-container"></div>
+    <div class="text-container">
+    <h1>WHY BUY WITH PLOTPICKER</h1>
+    </div>
+
+    <div id="results"></div>
+
+    <script src="D:\IPT\DAY 1\buildinghome.js"></script>
+</body>
+</html>
